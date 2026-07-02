@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taha and ishan Reviews Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="sale-timer">12.12 Sale Ends In: 3 Days 08 Hours 01 Minutes 50 Seconds</div>
+    <div>Send 200 PKR & Confirm Order | FREE Cash on Delivery All Over Pakistan</div>
+  </header>
+
+  <!-- Navigation -->
+  <div class="nav-bar">
+  <a href="#" onclick="showSection('about-section')">About Us</a>
+  <a href="#" onclick="showSection('order-tracking-section')">Order Tracking</a>
+</div>
+
+<div id="about-section" style="display: none; padding: 50px; background: linear-gradient(180deg, #142a52 0%, #0e1830 100%); color: #eef2fa; border-top: 1px solid rgba(140,180,255,0.15); border-bottom: 1px solid rgba(140,180,255,0.15);">
+  <h2>About Us</h2>
+  <p>Welcome to Taha and Ishan Reviews Store. We offer the best products at unbeatable prices!</p>
+</div>
+
+<div id="order-tracking-section" style="display: none; padding: 50px; background: linear-gradient(180deg, #1b3a66 0%, #142a52 100%); color: #eef2fa; border-top: 1px solid rgba(140,180,255,0.15); border-bottom: 1px solid rgba(140,180,255,0.15);">
+  <h2>Order Tracking</h2>
+  <p>Track your orders easily using your order ID and email address.</p>
+<input type="text" placeholder="Enter Order Number">
+        <button class="button">Track</button>
+</div>
+
+
+  <!-- Parallax Stars Hero -->
+  <div class="stars-hero">
+    <div class="stars-layer" id="starsSmall">
+      <div class="stars-layer dup" id="starsSmallDup"></div>
+    </div>
+    <div class="stars-layer" id="starsMedium">
+      <div class="stars-layer dup" id="starsMediumDup"></div>
+    </div>
+    <div class="stars-layer" id="starsBig">
+      <div class="stars-layer dup" id="starsBigDup"></div>
+    </div>
+    <div class="stars-content">
+      <h1>PREMIUM TECH<br>AT UNBEATABLE PRICES</h1>
+      <p>Watches &bull; Earbuds &bull; Phones &mdash; Free Cash on Delivery All Over Pakistan</p>
+      <a href="#shop-categories" class="stars-cta">Shop Now</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <img src="bannernum2.jpg" alt="Hero Imag1"onclick="showPrice('Custom Photo Airpod', 'Rs. 19,800', 'aujla.jpg')">
+     
+    <img src="bannernum5.jpg" alt="Hero Imag2"onclick="showPrice('F50 bluetooth watch', 'Rs. 8,800', 'f50.jpg')">
+<img src="bannernum6.jpg" alt="Hero Imag3"onclick="showPrice('F50 bluetooth watch', 'Rs. 8,800', 'f50.jpg')">
+     
+  </div>
+
+  <!-- Categories Section (Flowing Menu) -->
+  <div class="flowing-menu-wrap" id="shop-categories">
+    <h2>CHOOSE YOUR FAVOURITE</h2>
+    <div class="flowing-menu">
+
+      <div class="flow-item" onclick="showPrice('Earbuds', 'Rs. 8,200', 'earbuds.jpg')">
+        <div class="flow-text">Earbuds</div>
+        <div class="flow-marquee">
+          <div class="flow-marquee-viewport">
+            <div class="flow-marquee-track">
+              <span>Earbuds</span><img src="earbuds.jpg" alt="Earbuds">
+              <span>Earbuds</span><img src="earbuds.jpg" alt="Earbuds">
+              <span>Earbuds</span><img src="earbuds.jpg" alt="Earbuds">
+              <span>Earbuds</span><img src="earbuds.jpg" alt="Earbuds">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-item" onclick="showPrice('Series 9', 'Rs. 4950','max.jpg')">
+        <div class="flow-text">Series 9</div>
+        <div class="flow-marquee">
+          <div class="flow-marquee-viewport">
+            <div class="flow-marquee-track">
+              <span>Series 9</span><img src="newseries9.jpg" alt="Series 9">
+              <span>Series 9</span><img src="newseries9.jpg" alt="Series 9">
+              <span>Series 9</span><img src="newseries9.jpg" alt="Series 9">
+              <span>Series 9</span><img src="newseries9.jpg" alt="Series 9">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-item" onclick="showPrice('Js watch 7 ultra', 'Rs.  4,950', 'jswatch.jpg')">
+        <div class="flow-text">Watch Ultra</div>
+        <div class="flow-marquee">
+          <div class="flow-marquee-viewport">
+            <div class="flow-marquee-track">
+              <span>Watch Ultra</span><img src="newwatchultra.jpg" alt="Watch Ultra">
+              <span>Watch Ultra</span><img src="newwatchultra.jpg" alt="Watch Ultra">
+              <span>Watch Ultra</span><img src="newwatchultra.jpg" alt="Watch Ultra">
+              <span>Watch Ultra</span><img src="newwatchultra.jpg" alt="Watch Ultra">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-item" onclick="showPrice('Js watch 7 ultra(WITH 7 STRAPS)', 'Rs. 8,000', '7.jpg')">
+        <div class="flow-text">7 Strap Deals</div>
+        <div class="flow-marquee">
+          <div class="flow-marquee-viewport">
+            <div class="flow-marquee-track">
+              <span>7 Strap Deals</span><img src="7.jpg" alt="7 Strap Deals">
+              <span>7 Strap Deals</span><img src="7.jpg" alt="7 Strap Deals">
+              <span>7 Strap Deals</span><img src="7.jpg" alt="7 Strap Deals">
+              <span>7 Strap Deals</span><img src="7.jpg" alt="7 Strap Deals">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-item" onclick="showPrice('IPHONE15 PRO MAX', 'Rs.3,12,000', 'newiphone.jpg')">
+        <div class="flow-text">Used Phones</div>
+        <div class="flow-marquee">
+          <div class="flow-marquee-viewport">
+            <div class="flow-marquee-track">
+              <span>Used Phones</span><img src="newiphone.jpg" alt="Used Phones">
+              <span>Used Phones</span><img src="newiphone.jpg" alt="Used Phones">
+              <span>Used Phones</span><img src="newiphone.jpg" alt="Used Phones">
+              <span>Used Phones</span><img src="newiphone.jpg" alt="Used Phones">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ <div class="categories">
+    <h2>12.12 sale</h2>
+    <div class="categories-container">
+      <div class="category-card">
+        <img src="12.12.jpg" alt="Apple Watch Series 9 + Airpods + 3 Straps" onclick="showPrice('Apple Watch Series 9 + Airpods + 3 Straps', 'Rs. 8,200', '12.12.jpg')">
+        <h3>Apple Watch Series 9 + Airpods + 3 Straps</h3>
+        <div class="price"><s>Rs. 10,000.00</s></div>
+        <div class="discount">Rs. 8,200.00</div>
+        <button class="button"onclick="showPrice('Apple Watch Series 9 + Airpods + 3 Straps', 'Rs. 8,200', '12.12.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="max.jpg" alt="Series 9" onclick="showPrice('Series 9', 'Rs. 4950','max.jpg')">
+        <h3>Apple Watch Series 9 Max</h3>
+      <div class="price"><s>Rs. 12,000.00</s></div>
+      <div class="discount">Rs. 4,950.00</div>
+      <button class="button" onclick="showPrice('Series 9', 'Rs. 4950','max.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="hk9.jpg" alt="HK 9 PRO MAX+ (4th gen)" onclick="showPrice('HK 9 PRO MAX+ (4th gen)', 'Rs.  9,400', 'hk9.jpg')">
+       <h3>HK 9 PRO MAX+ (4th gen)</h3>
+      <div class="price"><s>Rs. 20,000.00</s></div>
+      <div class="discount">Rs. 9,400.00</div>
+      <button class="button"onclick="showPrice('HK 9 PRO MAX+ (4th gen)', 'Rs.  9,400', 'hk9.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="series10.jpg" alt="Apple Watch Series 10 (3/1)" onclick="showPrice('Apple Watch Series 10 (3/1)', 'Rs.  7,000', 'series10.jpg')">
+          <h3>Apple Watch Series 10 (3/1)</h3>
+      <div class="price"><s>Rs. 10,200.00</s></div>
+      <div class="discount">Rs. 7,000.00</div>
+      <button class="button"onclick="showPrice('Apple Watch Series 10 (3/1)', 'Rs.  7,000', 'series10.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="tk.jpg" alt="TK90 ULTRA 10 IN 1 smartwatch" onclick="showPrice('TK90 ULTRA 10 IN 1 smartwatch', 'Rs.4,800', 'tk.jpg')">
+       <h3>TK90 ULTRA 10 IN 1 smartwatch</h3>
+      <div class="price"><s>Rs. 99,000.00</s></div>
+      <div class="discount">Rs. 4,800.00</div>
+      <button class="button"onclick="showPrice('TK90 ULTRA 10 IN 1 smartwatch', 'Rs.4,800', 'tk.jpg')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+<div class="categories">
+    <h2>Top products</h2>
+    <div class="categories-container">
+      <div class="category-card">
+         <img src="hk9.jpg" alt="HK 9 PRO MAX+ (4th gen)" onclick="showPrice('HK 9 PRO MAX+ (4th gen)', 'Rs. 9,400', 'hk9.jpg')">
+       <h3>HK 9 PRO MAX+ (4th gen)</h3>
+      <div class="price"><s>Rs. 20,000.00</s></div>
+      <div class="discount">Rs. 9,400.00</div>
+        <button class="button"onclick="showPrice('HK 9 PRO MAX+ (4th gen)', 'Rs. 9,400', 'hk9.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="jswatch.jpg" alt="Js watch 7 ultra" onclick="showPrice('Js watch 7 ultra', 'Rs.  4,950', 'jswatch.jpg')">
+        <h3>Js Watch 7 Ultra</h3>
+      <div class="price"><s>Rs. 25,000.00</s></div>
+      <div class="discount">Rs. 4,950.00</div>
+      <button class="button" onclick="showPrice('Js watch 7 ultra', 'Rs.  4,950', 'jswatch.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="tk.jpg" alt="TK90 ULTRA 10 IN 1 smartwatch" onclick="showPrice('TK90 ULTRA 10 IN 1 smartwatch', 'Rs. 4,800', 'tk.jpg')">
+       <h3>TK90 ULTRA 10 IN 1 smartwatch</h3>
+      <div class="price"><s>Rs. 99,000.00</s></div>
+      <div class="discount">Rs. 4,800.00</div>
+      <button class="button"onclick="showPrice('TK90 ULTRA 10 IN 1 smartwatch', 'Rs. 4,800', 'tk.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+        <img src="i10.jpg" alt="I10 PRO MAX"onclick="showPrice('I10 PRO MAX', 'Rs.11,000', 'i10.jpg')">
+          <h3>I10 Pro Max</h3>
+      <div class="price"><s>Rs. 21,200.00</s></div>
+      <div class="discount">Rs. 11,000.00</div>
+      <button class="button"onclick="showPrice('I10 PRO MAX', 'Rs.11,000', 'i10.jpg')">Buy Now</button>
+      </div>
+      <div class="category-card">
+         <img src="aujla.jpg" alt="Custom Photo Airpod" onclick="showPrice('Custom Photo Airpod', 'Rs. 19,800', 'aujla.jpg')">
+       <h3>Custom Photo Airpod</h3>
+      <div class="price"><s>Rs. 112,000.00</s></div>
+      <div class="discount">Rs. 19,800.00</div>
+      <button class="button"onclick="showPrice('Custom Photo Airpod', 'Rs. 19,800', 'earbuds.jpg')">Buy Now</button>
+      </div>
+ <div class="category-card">
+        <img src="f50.jpg" alt="F50 bluetooth watch" onclick="showPrice('F50 bluetooth watch', 'Rs. 8,800', 'f50.jpg')">
+       <h3>F50 bluetooth watch</h3>
+      <div class="price"><s>Rs. 17,000.00</s></div>
+      <div class="discount">Rs. 8,800.00</div>
+      <button class="button"onclick="showPrice('F50 bluetooth watch', 'Rs. 8,800', 'f50.jpg')">Buy Now</button>
+      </div>
+
+    </div>
+  </div>
+
+<div class="sin-pic-container">
+        <div class="sin-pic">
+             <img src="appleairpods.jpg"alt="airpod" onclick="showPrice('airpod', 'Rs. 8,200', '12.12.jpg')">
+</div>
+<div class="sin-pic-text">
+        <h3> Airpods </h3>
+        <div class="price"><s>Rs. 10,000.00</s></div>
+        <div class="discount">Rs. 8,200.00</div>
+        <button class="button"onclick="showPrice('airpod', 'Rs. 8,200', '12.12.jpg')">Buy Now</button>
+      </div>
+
+ </div>
+  </div>
+<div class="sin-pic-container">
+        <div class="sin-pic">
+             <img src="tasweer.jpg"alt="ghari"onclick="showPrice('HW69 Watch Ultra', 'Rs. 200', 'tasweer.jpg')">
+</div>
+<div class="sin-pic-text">
+        <h3> HW69 Watch Ultra </h3>
+       <p>Experience premium features without the premium price. Our smartwatch: Super AMOLED display, Always-On, and more – all at the cheapest price.</p>
+        <button class="button" onclick="showPrice('HW69 Watch Ultra', 'Rs. 200', 'tasweer.jpg')">Buy Now</button>
+      </div>
+
+ </div>
+  </div>
+
+<div id="content-container"></div>
+  <!-- Footer -->
+  <footer>
+<h4>Contact Us</h4>
+    <p>Email: mainnibtaunga@gmail.com</p>
+    <p>Phone: +123 456 7890</p>
+    <p>Address: too personal thing to ask</p>
+  </div>
+    <p>&copy; 2024 Taha and Ishan Reviews Store. All Rights Reserved.</p>
+<div>
+      </footer>
+  <script src="script.js"></script>
+</body>
+</html>
