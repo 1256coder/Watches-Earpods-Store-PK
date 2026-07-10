@@ -108,21 +108,6 @@ You can add screenshots of the homepage and product pages here.
 
 ---
 
-## 🔮 Future Improvements
-
-- Shopping Cart functionality
-- Checkout page
-- User Login & Registration
-- Product Search
-- Product Categories
-- Wishlist
-- Payment Gateway Integration
-- Backend Database
-- Admin Dashboard
-- Product Reviews
-- Responsive Mobile Navigation
-
----
 
 ## 👨‍💻 Authors
 
